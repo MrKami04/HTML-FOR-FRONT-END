@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <style>
+        .box{
+            background-color: yellow;
+            width: 80px;
+            height: 80px;
+            margin: 10px;position: relative;
+            border-radius: 100%;
+            animation-name: balls;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes balls{
+
+            from{
+                left: 0px;
+            }
+            to{
+                left: 400px;
+            }
+        }
+
+        #box1{
+            animation-timing-function: ease;
+            background-color: black;
+        }
+        
+        #box2{
+            animation-timing-function: linear;
+            background-color: chocolate;
+        }
+        
+        #box3{
+            animation-timing-function: ease-in;
+            background-color: darkblue;
+        }
+        
+        #box4{
+            animation-timing-function: ease-in-out;
+            background-color: crimson;
+        }
+        
+        #box5{
+            animation-timing-function: ease-out;
+            background-color: mediumspringgreen;
+        }
+    </style>
+</head>
+<body>
+    
+
+
+    <div class="box" id="box1"></div>
+    <div class="box" id="box2"></div>
+    <div class="box" id="box3"></div>
+    <div class="box" id="box4"></div>
+    <div class="box" id="box5"></div>
+
+    
+
+
+
+</body>
+</html>

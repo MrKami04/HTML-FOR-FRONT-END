@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        p{
+            color: brown;
+        }
+
+        p::first-line{
+            color: rgb(255, 218, 6);
+        }
+        p::first-letter{
+            color: green;
+            font-size: 30px;
+            font-family: cursive;
+        }
+
+        h1{
+            text-align: center;
+            color: greenyellow;
+        }
+        h1::before{
+            content: '😍';
+
+        }
+
+        h1::after{
+            content: '😎';
+        }
+
+        label::after{
+            content: '*';
+            color: red;
+        }
+
+        body::selection{
+            background-color: rgb(66, 66, 239);
+            color: white;
+        }
+        input::placeholder{
+            color: blue;
+
+        }
+        
+    </style>
+</head>
+<body>
+    <!--  selector::pseudoelement -->
+
+    <h1>Good Morning💛</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+         Sit voluptatum vitae harum placeat voluptates ipsa architecto, debitis accusantium deleniti quibusdam.</p>
+
+
+         <label for="">firstname</label>
+         <input type="text" name="" id="" placeholder="FirstName">
+</body>
+
+
+</html>

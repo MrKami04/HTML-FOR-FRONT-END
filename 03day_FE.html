@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <form action="" method="post"> <!-- form-tag use to create form of the web page as login form -->
+        <label for="FNAME">Firstname</label> <!-- label-tag use for clear what we want to write in input-->
+        <input type="text" name="Fname" id="FNAME" required/><!-- input-tag use to take input from user-->
+<br/>
+        <label for="lname">Lastname</label>
+        <input type="text" name="Lname" id="lname" required/>
+<br/>
+        <label for="">Address</label>
+        <textarea name="Adress" id=""></textarea><!--textarea-tag use to write content more words as 1000 words this is possible in this  only-->
+<br/>
+        <label for="">Dob</label>
+        <input type="date" name="date" id="">
+<br/>
+        <label for="">useremail</label>
+        <input type="email" name="email" id="">
+<br/>
+
+        <input type="file" name="file" id="" multiple>
+        <br/>
+
+        <label for="">Age</label>
+        <input type="number" name="Age" id="" minlength="10" maxlength="12">
+
+        <br />
+
+        <label for="">passsword</label>
+        <input type="password" name="password" id="">
+        <br>
+         <label for="">Gender</label>
+        <input type="radio" name="g1" id="" value="male"><label for="">Male</label>
+        <input type="radio" name="g1" id="" value="female"><label for="">Female</label>
+        <input type="radio" name="g1" id="" value="other"><label for="">otheers</label>
+        <br>
+
+        <label for="">Subject</label>
+        <input type="checkbox" name="c1" id="" value="html"><label for="">HTML</label>
+        <input type="checkbox" name="c2" id="" value="css"><label for="">CSS</label>
+        <input type="checkbox" name="c3" id="" value="js"><label for="">Js</label>
+        <br>
+
+        <select name="" id="">
+            <option value="html">Html</option>
+            <option value="css">Css</option>
+            <option value="js">Js</option>
+        </select>
+      
+
+        <input type="reset" value="Reset">
+        <input type="submit" value="submit">
+    </form>
+</body>
+</html>
